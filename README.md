@@ -32,6 +32,11 @@ Considerando que você executou as etapas acima com êxito, abra o seu terminal 
 ### Edpoints
 
 
-`POST /posts` -> Método para fazer upload de imagem. Você deve enviar no corpo da requisição um campo "file" contendo o arquivo. 
-`GET /posts` -> Método para Listar Uploads Realizados Nessa Ferramenta. Ele retorna a url do arquivo, nome original e tamanho.
-`DELETE /posts/:id` -> Método para Deletar um Upload. É necessário enviar o ID dele no lugar de `:id` na URL
+`POST /posts`: <br/>
+Método para fazer upload de imagem. Você deve enviar no corpo da requisição um campo "file" contendo o arquivo. <br/>
+
+`GET /posts`:  <br/>
+Método para Listar Uploads Realizados Nessa Ferramenta. Ele retorna a url do arquivo, nome original e tamanho. <br/>
+
+`DELETE /posts/:id`: <br/>
+Método para Deletar um Upload. É necessário enviar o ID dele no lugar de `:id` na URL
