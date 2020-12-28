@@ -1,5 +1,5 @@
 {
-    "name": "upload-api",
+    "name": "upload-images-api",
     "version": "1.0.0",
     "description": "Backend de Upload de Imagens.",
     "main": "index.js",
