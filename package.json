@@ -1,0 +1,20 @@
+{
+    "name": "upload-api",
+    "version": "1.0.0",
+    "description": "Backend de Upload de Imagens.",
+    "main": "index.js",
+    "author": "Raissa Queiroz",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "fs": "^0.0.1-security",
+        "mongoose": "^5.11.8",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.2",
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "dev": "nodemon src/index.js",
+        "start": "node src/index.js"
+    }
+}
