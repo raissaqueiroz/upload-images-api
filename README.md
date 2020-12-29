@@ -1,6 +1,6 @@
 # API Upload de Imagens
 
-Essa aplicação foi desenvolvida exclusivamente para o upload e visualização de imagens.
+Essa aplicação foi desenvolvida exclusivamente para o upload e visualização de imagens. Através dessa API você consegue fazer upload de imagens, visualiza-las e excluí-las.
 
 _Foi feito com muito entusiasmo e carinho :)_
 
@@ -60,6 +60,11 @@ Considerando que você executou as etapas acima com êxito, abra o seu terminal 
 Pronto! a API estará rodando na porta 3333. Caso você deseje alterar para outra porta, basta adicionar ao aquivo .env do projeto como no exemplo a seguir: `PORT=3333`.
 ### Edpoints
 
-`POST /uploads` -> Método para fazer upload de imagem. Você deve enviar no corpo da requisição um campo "file" contendo o arquivo.
-`GET /uploads` -> Método para Listar Uploads Realizados Nessa Ferramenta. Ele retorna a url do arquivo, nome original e tamanho.
-`DELETE /uploads/:id` -> Método para Deletar um Upload. É necessário enviar o ID dele no lugar de `:id` na URL
+`POST /uploads`: <br/>
+Método para fazer upload de imagem. Você deve enviar no corpo da requisição um campo "file" contendo o arquivo. <br/>
+
+`GET /uploads`:  <br/>
+Método para Listar Uploads Realizados Nessa Ferramenta. Ele retorna a url do arquivo, nome original e tamanho. <br/>
+
+`DELETE /uploads/:id`: <br/>
+Método para Deletar um Upload. É necessário enviar o ID dele no lugar de `:id` na URL
